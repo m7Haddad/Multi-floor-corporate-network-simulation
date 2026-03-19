@@ -1,6 +1,5 @@
 # Multi-Floor Corporate Network Infrastructure - Cisco Packet Tracer
 
-![Project Banner](screenshots/image1.png) <!-- Replace with your best topology or banner screenshot -->
 
 ## Overview
 This project simulates a complete **3-floor corporate building network** for a medium-sized company. Each floor contains multiple departments with dedicated VLANs and subnets supporting hundreds of devices. The network includes:
@@ -92,11 +91,3 @@ Screenshots of every `show run` are in the `screenshots/` folder (`image11.png` 
 ## Author
 **Mohamad**  
 Built in 2024 as part of Data Communications & Computer Networks course.
-
-**Tips for your GitHub repo:**
-- Create an `screenshots/` folder and put all your images there (image1.png – image24.png).
-- Upload the `.pkt` file (it's the most important).
-- If you still have the TFTP backup files, add them in a `Configs/` folder.
-- Add a license (MIT is fine) and topics: `cisco-packet-tracer`, `network-design`, `vlan`, `subnetting`, `ccna-project`.
-
-Just copy the description and the entire README above — your project will look professional and portfolio-ready! Let me know if you want a dark-mode version or want me to generate a project banner image for you.
