@@ -1,10 +1,9 @@
 # Multi-Floor Corporate Network Infrastructure - Cisco Packet Tracer
-
+![Description](Topology.png)
 
 ## Overview
 This project simulates a complete **3-floor corporate building network** for a medium-sized company. Each floor contains multiple departments with dedicated VLANs and subnets supporting hundreds of devices. The network includes:
 
-![Description](Topology.png)
 
 - 9 departmental subnets (Store, Reception, Logistics, Finance, Sales, HR, IT, Admin)
 - 3 WAN point-to-point links
