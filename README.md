@@ -4,6 +4,8 @@
 ## Overview
 This project simulates a complete **3-floor corporate building network** for a medium-sized company. Each floor contains multiple departments with dedicated VLANs and subnets supporting hundreds of devices. The network includes:
 
+![Description](Topology.png)
+
 - 9 departmental subnets (Store, Reception, Logistics, Finance, Sales, HR, IT, Admin)
 - 3 WAN point-to-point links
 - Inter-VLAN routing via 3 routers
@@ -66,8 +68,6 @@ All `show running-config` outputs and TFTP backups are included:
 - Router 1st, Router 2nd, Router 3rd
 - Switch 1st, Switch 2nd, Switch 3rd
 
-Screenshots of every `show run` are in the `screenshots/` folder (`image11.png` – `image24.png`).
-
 
 ## How to Run
 1. Download and install **Cisco Packet Tracer** (version 8.0+ recommended)
@@ -81,10 +81,11 @@ Screenshots of every `show run` are in the `screenshots/` folder (`image11.png` 
 
 ## Technologies Used
 - Cisco Packet Tracer
-- VLANs & Trunking (802.1Q)
+- VLANs & Trunking
 - VLSM Subnetting
 - Inter-VLAN Routing
 - Static Routing
+- RIPv2 Dynamic Routing
 - IPv4 & IPv6
 - Server Services (DNS, HTTP, FTP, TFTP, Mail)
 
